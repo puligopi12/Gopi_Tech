@@ -30,18 +30,22 @@ export default function Hero({ id, onNavClick }) {
 
             {/* Quick Stats Bar */}
             <div className="hero-stats-row" aria-label="Professional highlights">
+              
               <div className="hero-stat-pill">
                 <GraduationCap size={15} aria-hidden="true" />
                 <span><strong>B.Tech CSE</strong> (7.9 CGPA)</span>
               </div>
+              
               <div className="hero-stat-pill">
                 <Briefcase size={15} aria-hidden="true" />
                 <span><strong>Software Trainee</strong> @ Jagan Tech</span>
               </div>
+              
               <div className="hero-stat-pill">
                 <Server size={15} aria-hidden="true" />
                 <span><strong>Spring Boot</strong> &amp; REST</span>
               </div>
+            
             </div>
 
             {/* Action Buttons */}
@@ -104,7 +108,7 @@ export default function Hero({ id, onNavClick }) {
               <div className="hero-photo-card">
                 {/* Photo image element */}
                 <img
-                  src="/assets/profile.jpg"
+                  src="/assets/profile.png"
                   alt={profile.name}
                   className="hero-photo-img"
                   onError={(e) => {

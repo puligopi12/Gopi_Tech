@@ -10,6 +10,7 @@ export const profile = {
   github: "https://github.com/puligopi12",
   linkedin: "https://www.linkedin.com/in/p-phanindra-ratna-gopi-706b352aa",
   resumePath: "/assets/Phanindra_Ratna_Gopi_Resume.pdf",
+  profilepic: "/assets/profile.png",
   resumeFileName: "Phanindra_Ratna_Gopi_Resume.pdf",
   objective:
     "To build reliable, secure, high-performance software applications using Java, Spring Boot, microservices architecture, and modern frontend technologies.",

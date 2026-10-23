@@ -108,7 +108,7 @@ export default function Hero({ id, onNavClick }) {
               <div className="hero-photo-card">
                 {/* Photo image element */}
                 <img
-                  src="/assets/profile.png"
+                  src={profile.profilepic}
                   alt={profile.name}
                   className="hero-photo-img"
                   onError={(e) => {
